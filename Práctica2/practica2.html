@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 2</title>
+    <link rel="stylesheet" href="./Estilos/styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>Practica 1</h1>
+    </header>
+
+    <main>
+        <div>
+            <h2>Ejercicio1: Carga Sociales</h2>
+            <p>El usuario debe ingresar su salario bruto.</p>
+            <div class="form-container">
+                <form id="salaryForm">
+                    <label for="salary">Salario Bruto:</label>
+                    <input type="number" id="salario"  required placeholder="Ingrese su salario bruto">
+                    <button type="button" id="btnCalcular">Calcular</button>
+                </form>
+            </div>
+        </div>
+        <div>
+            <h2>Ejercicio 2: Manipulacion del DOM</h2>
+            <div class="paragraph-container">
+                <container id="parrafo">
+                    <p>Hola Usuario. ¿Comó se encuentra? Espero que muy bien.<br> Si quiere ver algo increible haga click en este boton</p>
+                </container>
+            <button type="button" id="btnGatito">Click Aqui</button>
+        </div>
+        <div>
+            <h2>Ejercicio 3: Manipulacion de arreglos</h2>
+            <p>Arreglo de estudiantes.[Nombre, apellido y nota]</p>
+            <div class="container">
+                <button type="button" id="btnEstudiantes">Mostrar Estudiantes</button>
+                <ul id="estudiantesList" class="estudiantes-list">
+                    
+            
+                </div>
+        </div>
+    </main>
+    <script src="./JavaScript/Funcionalidad.js"></script>
+        <!--esto es para enlazar la libreria de sweetalert2, ademas de darle diseño-->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
+
